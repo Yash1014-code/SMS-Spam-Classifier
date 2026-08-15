@@ -33,15 +33,24 @@ The project uses Natural Language Processing and Machine Learning to classify SM
 
 The complete prediction process is:
 
-```text
-SMS Message
-     ↓
-Text Preprocessing
-     ↓
-TF-IDF Vectorization
-     ↓
-3000 Features
-     ↓
-Multinomial Naive Bayes
-     ↓
-Spam / Ham Prediction
+**SMS Message**  
+↓  
+**Text Preprocessing**  
+↓  
+**TF-IDF Vectorization**  
+↓  
+**3000 Features**  
+↓  
+**Multinomial Naive Bayes**  
+↓  
+**Spam / Ham Prediction**
+
+---
+
+## 📝 Text Representation
+
+TF-IDF (Term Frequency–Inverse Document Frequency) is used to convert SMS text into numerical features that can be processed by the machine learning model.
+
+The final vectorizer uses 3000 features
+
+
