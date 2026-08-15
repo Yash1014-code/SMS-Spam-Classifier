@@ -143,10 +143,17 @@ streamlit run app.py
 ---
 
 ## 🧪 Example
-###🚨 Spam
+### 🚨 Spam
 
 Congratulations! You have won a free prize. Reply YES to claim now!
 
-###✅ Ham
+### ✅ Ham
 
 Hey, are you coming to college tomorrow?
+
+---
+
+## 👨‍💻 Author
+**Yash Pandey**
+
+**B.Tech — Computer Science & Engineering (AI & ML)**
