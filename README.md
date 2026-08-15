@@ -6,7 +6,7 @@ A machine learning web application that classifies SMS messages as **Spam** or *
 
 ## 🚀 Live Demo
 
-🔗 **Live Application:** Add your Streamlit deployment URL here after deployment.
+🔗 **Live Application:** https://sms-spam-classifier-d2gqcvehnxw9npnwoy3vsr.streamlit.app/
 
 ---
 
@@ -120,7 +120,7 @@ SMS-Spam-Classifier/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Yash1014/SMS-Spam-Classifier.git
+git clone https://github.com/Yash1014-code/SMS-Spam-Classifier.git
 ```
 
 ### 2. Navigate to the project directory
