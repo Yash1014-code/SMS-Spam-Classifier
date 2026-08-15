@@ -100,6 +100,8 @@ These metrics represent the model's performance on the evaluation dataset. They 
 ---
 
 ## 📂 Project Structure
+
+```text
 SMS-Spam-Classifier/
 │
 ├── app.py
@@ -109,3 +111,42 @@ SMS-Spam-Classifier/
 ├── README.md
 ├── SMS_Spam_Classifier.ipynb
 └── email.csv
+```
+
+---
+
+## 💻 Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Yash1014/SMS-Spam-Classifier.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd SMS-Spam-Classifier
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the application
+
+```bash
+streamlit run app.py
+```
+---
+
+## 🧪 Example
+###🚨 Spam
+
+Congratulations! You have won a free prize. Reply YES to claim now!
+
+###✅ Ham
+
+Hey, are you coming to college tomorrow?
