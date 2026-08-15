@@ -39,3 +39,71 @@ TF-IDF Vectorization
 Multinomial Naive Bayes
      ↓
 Spam / Ham Prediction
+
+---
+
+### Text Representation
+
+**TF-IDF (Term Frequency–Inverse Document Frequency)** is used to convert SMS text into numerical features that can be processed by the machine learning model.
+
+The final vectorizer uses **3000 features**.
+
+### Classification Model
+
+The final model used for deployment is:
+
+**Multinomial Naive Bayes**
+
+The model was selected based on its performance for the SMS classification task.
+
+---
+
+## 📊 Model Performance
+
+The final model achieved the following results on the test set:
+
+| Metric | Score |
+|---|---:|
+| **Accuracy** | **98%** |
+| **Spam Precision** | **96%** |
+| **Spam Recall** | **91%** |
+| **Spam F1 Score** | **94%** |
+
+> These metrics represent the model's performance on the evaluation dataset. They do not guarantee the same accuracy for every new SMS message.
+
+---
+
+## 🛠️ Technologies Used
+
+- 🐍 **Python**
+- 🤖 **Scikit-learn**
+- 🌐 **Streamlit**
+- 📊 **TF-IDF Vectorization**
+- 🧠 **Multinomial Naive Bayes**
+- 💾 **Pickle**
+
+---
+
+## ✨ Features
+
+- 📱 SMS spam detection
+- 🔍 Real-time message analysis
+- 🚨 Spam/Ham classification
+- 📊 Prediction probability
+- 🧹 Clear message functionality
+- 🌐 Web-based interface using Streamlit
+
+---
+
+## 📂 Project Structure
+
+```text
+SMS-Spam-Classifier/
+│
+├── app.py
+├── model.pkl
+├── vectorizer.pkl
+├── requirements.txt
+├── README.md
+├── SMS_Spam_Classifier.ipynb
+└── email.csv
