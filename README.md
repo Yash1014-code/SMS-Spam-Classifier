@@ -55,7 +55,7 @@ The final vectorizer uses 3000 features
 
 ---
 
-##🤖 Classification Model
+## 🤖 Classification Model
 
 The final model used for deployment is:
 
@@ -65,7 +65,7 @@ The model was selected based on its performance for the SMS classification task.
 
 ---
 
-##📊 Model Performance
+## 📊 Model Performance
 
 The final model achieved the following results on the test set:
 
@@ -79,7 +79,7 @@ These metrics represent the model's performance on the evaluation dataset. They 
 
 ---
 
-##🛠️ Technologies Used
+## 🛠️ Technologies Used
 - 🐍 Python
 - 🤖 Scikit-learn
 - 🌐 Streamlit
@@ -89,7 +89,7 @@ These metrics represent the model's performance on the evaluation dataset. They 
 
 ---
 
-##✨ Features
+## ✨ Features
 - 📱 SMS spam detection
 - 🔍 Real-time message analysis
 - 🚨 Spam/Ham classification
@@ -99,3 +99,13 @@ These metrics represent the model's performance on the evaluation dataset. They 
 
 ---
 
+## 📂 Project Structure
+SMS-Spam-Classifier/
+│
+├── app.py
+├── model.pkl
+├── vectorizer.pkl
+├── requirements.txt
+├── README.md
+├── SMS_Spam_Classifier.ipynb
+└── email.csv
